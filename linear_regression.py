@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-data = pd.read_csv("Salary_Data.csv")
+data = pd.read_csv("Salary.csv")
 
 X = data[['YearsExperience']]
 y = data['Salary']
